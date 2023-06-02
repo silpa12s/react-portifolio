@@ -1,0 +1,49 @@
+.home{
+    width: 100%;
+    align-items: center;
+    color:purple;
+}
+.about{
+    width: 100%;
+    height:calc(100vh - 100px) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:purple;
+    color: black;
+}
+
+.about h1{
+    font-size: 50px;
+    color: white;
+    height: 30px;
+}
+.prompt{
+width: 40%;
+font-size: 30px;
+}
+.prompt svg{
+    font-size: 40px;
+    margin: 5px;
+    color:black ;
+}
+.skills{
+    font-size: 35px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.skills h1{
+    color: rgb(46, 46, 99);
+}
+.skills .list{
+    list-style: none;
+    width: 60%;
+}
+.list span{
+    font-size: 20px;
+}
